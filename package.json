@@ -1,0 +1,21 @@
+{
+  "name": "vite-plugin-markdown2vue",
+  "version": "1.0.0",
+  "description": "Convert markdown to vue component",
+  "main": "index.js",
+  "repository": "https://github.com/hu-snail/vite-plugin-markdown2vue.git",
+  "author": "hu-snail <1217437592@qq.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vite2",
+    "narkdown",
+    "vue"
+  ],
+  "dependencies": {
+    "highlight.js": "^11.3.1",
+    "marked": "^3.0.7"
+  }
+}
