@@ -4,7 +4,7 @@ import hljs from "highlight.js";
 
 let defaultRenderer = {};
 let headerList = []
-export default function ({codeTheme = 'github-dark', theme = 'gitbook-teal'}) {
+export default function ({codeTheme = 'github', theme = 'gitbook-teal'}) {
   return {
     name: "vitePluginMd2Vue",
     transform(src, id) {

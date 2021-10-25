@@ -684,7 +684,6 @@ tt {
 
 code {
     padding: 0.2rem 0.4rem;
-    background-color: var(--borders);
     font-size: 0.9rem;
     border-radius: 0.2rem;
     box-decoration-break: clone;
@@ -2467,4 +2466,10 @@ p[type="description"] {
 
 kbd {
     font-family: var(--font-family);
+}
+
+pre {
+    background: #f5f5f5;
+    padding: 1rem;
+    border-radius: 0.5rem;
 }
